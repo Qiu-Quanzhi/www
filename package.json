@@ -2,23 +2,24 @@
   "name": "www.qqzhi.cc",
   "private": true,
   "version": "1.2.0",
+  "license": "RNCL-1.0",
   "type": "module",
-  "packageManager": "pnpm@11.10.0",
+  "packageManager": "pnpm@11.17.0",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && node scripts/update-timestamps.mjs && vite build && node scripts/generate-error-pages.mjs && node scripts/minify-css-vars.mjs && node scripts/generate-compressed.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.39",
-    "vue-i18n": "^11.4.6"
+    "vue": "^3.5.40",
+    "vue-i18n": "^11.4.7"
   },
   "devDependencies": {
     "@types/node": "^24.13.3",
-    "@vitejs/plugin-vue": "^6.0.7",
+    "@vitejs/plugin-vue": "^6.0.8",
     "sharp": "^0.35.3",
     "typescript": "^6.0.3",
-    "vite": "^8.1.4",
-    "vue-tsc": "^3.3.7"
+    "vite": "^8.1.5",
+    "vue-tsc": "^3.3.8"
   }
 }
