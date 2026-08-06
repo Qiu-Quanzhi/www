@@ -168,14 +168,14 @@ Where applicable law does not allow the complete exclusion or limitation of impl
 
 Place a complete copy of this License file (named `LICENSE` or `LICENSE.txt`) in the root directory of your project, and include the following notice in the header of each source code file (replacing the bracketed content with actual information):
 
-> Copyright © [year] [Copyright Holder]
+> Copyright © 2026 邱泉智 QIU Quanzhi (旅禾 Ryoine)
 >
 > This file is licensed under the Ryoine Non-Commercial License 1.0 (RNCL-1.0)
 > (the "License"); you may not use this file except in compliance with
 > the License. A copy of the License is distributed with this Work and
 > may also be obtained from:
 >
->     [project repository URL]
+>     https://github.com/Qiu-Quanzhi/Qiu-Quanzhi
 >
 > Unless required by applicable law or agreed to in writing, software
 > distributed under the License is distributed on an "AS IS" BASIS,
