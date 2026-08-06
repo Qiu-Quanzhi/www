@@ -127,6 +127,12 @@ const currentTabComponent = computed(() => tabComponents[tab.value])
         & .enter-text {
             animation: textShimmer 2s ease-in-out infinite;
         }
+
+        @media (prefers-color-scheme: dark) {
+            & .enter-text {
+                animation-name: textShimmerDark;
+            }
+        }
     }
 }
 
@@ -168,8 +174,13 @@ const currentTabComponent = computed(() => tabComponents[tab.value])
 }
 
 @keyframes textShimmer {
-    0%, 100% { filter: brightness(1); transform: scale(1); }
-    50% { filter: brightness(1.4); transform: scale(1.03); }
+    0%, 100% { filter: brightness(1); }
+    50% { filter: brightness(1.15); }
+}
+
+@keyframes textShimmerDark {
+    0%, 100% { filter: brightness(1); }
+    50% { filter: brightness(1.4); }
 }
 
 /* ===== 视频展演 ===== */
